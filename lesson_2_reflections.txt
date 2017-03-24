@@ -4,3 +4,9 @@ It creates a .git folder, but does not commit any files.
 I need to do it as a first step, to set it up. But it will not
 start "working" until I decide what files to add.
 
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+Staging area shows you what you intend to add/update in the repository, but
+changes have not yet been made there. The working directory shows all files
+in the directory, whether or not they are part of the git repo.
