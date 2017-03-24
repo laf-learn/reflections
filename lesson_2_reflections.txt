@@ -10,3 +10,11 @@ What value do you think it offers?
 Staging area shows you what you intend to add/update in the repository, but
 changes have not yet been made there. The working directory shows all files
 in the directory, whether or not they are part of the git repo.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Making changes in your working directory, I can work on any piece that I like,
+without having to worry if it belongs to the same logical part. I can then
+only move the files with logically tied changes to the staging area before
+committing, so I'm only committing one logical piece at a time. 
