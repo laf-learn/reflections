@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a .git folder, but does not commit any files.
+I need to do it as a first step, to set it up. But it will not
+start "working" until I decide what files to add.
+
