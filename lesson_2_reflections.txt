@@ -17,4 +17,39 @@ How can you use the staging area to make sure you have one commit per logical ch
 Making changes in your working directory, I can work on any piece that I like,
 without having to worry if it belongs to the same logical part. I can then
 only move the files with logically tied changes to the staging area before
-committing, so I'm only committing one logical piece at a time. 
+committing, so I'm only committing one logical piece at a time.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help? 
+
+Working on a new feature, code refactoring, creating multiple versions (like
+different languages or something like that). Master should be stable, and
+a branch should be where I'm doing work. Changes shouldn't be merged until they
+work.
+
+
+How do the diagrams help you visualize the branch structure?
+
+They clearly show the different chains of commits beloning to each branch,
+where the branches diverged, and any unreachable bits.
+
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+
+Making one version with all the features of both (if possible). We represent it
+the way that we do to show that they were developed separately, to make clear what
+the parent of each commit is, to show when they diverged and when they came
+back together.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging pros: saves time, can make for cleaner code (if doing manually, would
+be tempting to include other changes at the time). It also only does the least amount
+that it is absolutely sure about, so incorrect or improper merging is highly
+unlikely. Cons: less knowledge abouu what changes are being made. If I am merging in 
+code from another source, not having to go through it manually means I'm less aware
+of what all the changes are.
+
+
