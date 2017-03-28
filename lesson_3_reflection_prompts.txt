@@ -5,9 +5,26 @@ So, being able to leave my work laptop at work and continue work at home on
 my personal computer if necessary is an incentive for using a remote
 repository. It's like collaborating with myself.
 
+
 Why might you want to always pull changes manually rather than having Git 
 automatically stay up-to-date with your remote repository?
 
 If I'm working on changes, pulling before I've committed them could create
 conflicts, so it's better to have the pulling behavious be manual. I can 
 choose when the right time is to bring in updated versions.
+
+
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+Fork: make a copy of an existing repository on GitHub into your own account.
+Changes and commits made will then go to your version, and not theirs.
+Clone: pull down a copy of a repo from GitHub onto your computer.
+Commits will be made on your local, and push/pulls to to/from the repo
+on GitHub.
+Branch: usually made on your local version, splits off a branch of commit
+history from a main version. Used to work on experimental features or
+make alternate version of the main (eg. easy-mode, other language).
+At some point, would need to be merged back into mater.
+
+
