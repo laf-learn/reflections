@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Well, like this morning, being able to work on multiple computers is great.
+So, being able to leave my work laptop at work and continue work at home on
+my personal computer if necessary is an incentive for using a remote
+repository. It's like collaborating with myself.
