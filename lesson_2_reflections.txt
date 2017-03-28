@@ -54,3 +54,5 @@ of what all the changes are.
 
 
 Ugh, this is hard.
+
+Attempting to set up on second laptop now, see if I cloned/added the repository correctly.
