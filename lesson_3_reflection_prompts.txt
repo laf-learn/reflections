@@ -4,3 +4,11 @@ Well, like this morning, being able to work on multiple computers is great.
 So, being able to leave my work laptop at work and continue work at home on
 my personal computer if necessary is an incentive for using a remote
 repository. It's like collaborating with myself.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+To be able to compare changes I'm making against the most recent version,
+to minimize the chance of merge conflicts. To minimize divergence.
+
+
