@@ -43,3 +43,11 @@ Google docs (okay for single files, but not suites of files, or projects).
 Shared files on a dropbox or similar account (similar to google docs).
 
 
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+Working directly in master is mostly fine if you are the only one working on the project,
+but using branches helps with collaboration (particularly if different people are working
+on different parts of the project), as well as keeping master a clean, production version
+while keeping extra feature work on branches until it's ready to be included in the
+prod version.
