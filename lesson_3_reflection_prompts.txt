@@ -34,3 +34,12 @@ To be able to compare changes I'm making against the most recent version,
 to minimize the chance of merge conflicts. To minimize divergence.
 
 
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+
+Emailing files back and forth (relies on manual name changes to keep track of versions, 
+difficult to determine who made what changes).
+Google docs (okay for single files, but not suites of files, or projects).
+Shared files on a dropbox or similar account (similar to google docs).
+
+
