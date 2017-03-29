@@ -28,3 +28,9 @@ make alternate version of the main (eg. easy-mode, other language).
 At some point, would need to be merged back into mater.
 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+To be able to compare changes I'm making against the most recent version,
+to minimize the chance of merge conflicts. To minimize divergence.
+
+
